@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Montserrat:wght@400;500;600;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Оттенки</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+
+
+
+			<div class="menu container" style="display: none;">
+				<div class="header__menu-container container">
+					<div class="menu__social">
+						<a href="#">
+							<div class="menu__social-border">
+								<img src="images/f.svg" alt="facebook">
+							</div>
+						</a>
+						<a href="#">
+							<div class="menu__social-border">
+								<img src="images/inst.svg" alt="instagram">
+							</div>
+						</a>
+					</div>
+					<a class="logo main__logo" href="#">
+						<img src="images/logo.png" alt="логотип">
+					</a>
+					<button class="signup">Записаться</button>
+				</div>
+
+				<nav class="menu__navbar">
+					<a class="navbar__home" href="#"><img src="images/home.svg" alt="главная"></a>
+					<ul class="navbar__list">
+						<li>
+							<a class="navbar__link navbar__drop" href="#">о салоне</a>
+							<ul class="sab-navbar__list">
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="navbar__link navbar__drop" href="#">услуги</a>
+							<ul class="sab-navbar__list">
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="navbar__link" href="#">цены</a>
+						</li>
+						<li>
+							<a class="navbar__link navbar__drop" href="#">акции</a>
+							<ul class="sab-navbar__list">
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+								<li>
+									<a class="sab-menu__link" href="#">кнопка</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="navbar__link" href="#">услуги на дому</a>
+						</li>
+						<li>
+							<a class="navbar__link" href="#">Отзывы</a>
+						</li>
+						<li>
+							<a class="navbar__link" href="#">контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+
+
+		<div class="header__slider-container swiper-container">
+			<div class="header__slider-wrapper swiper-wrapper">
+				<div class="header__slider swiper-slide" style="background-image: url(images/header_bg.png);">
+					<p class="slider__slogo">САЛОН красоты «ОТТЕНКИ»</p>
+					<h3 class="header__slider-texttop">
+						20% скидка
+					</h3>
+					<p class="header__slider-textdown">
+						ПРИ ПЕРВОМ ПОСЕЩЕНИИ
+					</p>
+				</div>
+				<div class="header__slider swiper-slide" style="background-image: url(images/header_bg.png);">
+					<p class="slider__slogo">САЛОН красоты «ОТТЕНКИ»</p>
+					<h3 class="header__slider-texttop">
+						30% скидка
+					</h3>
+					<p class="header__slider-textdown">
+						ПРИ ПЕРВОМ ПОСЕЩЕНИИ
+					</p>
+				</div>
+				<div class="header__slider swiper-slide" style="background-image: url(images/header_bg.png);">
+					<p class="slider__slogo">САЛОН красоты «ОТТЕНКИ»</p>
+					<h3 class="header__slider-texttop">
+						40% скидка
+					</h3>
+					<p class="header__slider-textdown">
+						ПРИ ПЕРВОМ ПОСЕЩЕНИИ
+					</p>
+				</div>
+				<div class="header__slider swiper-slide" style="background-image: url(images/header_bg.png);">
+					<p class="slider__slogo">САЛОН красоты «ОТТЕНКИ»</p>
+					<h3 class="header__slider-texttop">
+						50% скидка
+					</h3>
+					<p class="header__slider-textdown">
+						ПРИ ПЕРВОМ ПОСЕЩЕНИИ
+					</p>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-next swiper-button-next--header"></div>
+		</div>
+	</header>
+	<section class="services">
+		<div class="container__page">
+			<h2 class="title title__center">Наши услуги</h2>
+
+			<!-- Slider main container -->
+			<div class="swiper-container services__slider-container">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<div class="swiper-slide services__slider-item">
+						<img class="services__slider-img" src="images/serive_1.png" alt="">
+						<p class="services__slider-name">Стрижка</p>
+						<p class="services__slider-prise">от <span>799</span> ₽</p>
+					</div>
+					<div class="swiper-slide services__slider-item">
+						<img class="services__slider-img" src="images/serive_4.png" alt="">
+						<p class="services__slider-name">Окрашивание</p>
+						<p class="services__slider-prise">от <span>1799</span> ₽</p>
+					</div>
+					<div class="swiper-slide services__slider-item">
+						<img class="services__slider-img" src="images/serive_2.png" alt="">
+						<p class="services__slider-name">Укладка</p>
+						<p class="services__slider-prise">от <span>399</span> ₽</p>
+					</div>
+					<div class="swiper-slide services__slider-item">
+						<img class="services__slider-img" src="images/serive_5.png" alt="">
+						<p class="services__slider-name">Маникюр/педикюр</p>
+						<p class="services__slider-prise">от <span>999</span> ₽</p>
+					</div>
+					<div class="swiper-slide services__slider-item">
+						<img class="services__slider-img" src="images/serive_3.png" alt="">
+						<p class="services__slider-name">Стрижка + укладка</p>
+						<p class="services__slider-prise">от <span>1189</span> ₽</p>
+					</div>
+					<div class="swiper-slide services__slider-item">
+						<img class="services__slider-img" src="images/serive_6.png" alt="">
+						<p class="services__slider-name">Услуги стилиста</p>
+						<p class="services__slider-prise">от <span>1499</span> ₽</p>
+					</div>
+					<div class="swiper-slide services__slider-item">
+						<img class="services__slider-img" src="images/serive_6.png" alt="">
+						<p class="services__slider-name">Услуги стилиста</p>
+						<p class="services__slider-prise">от <span>1499</span> ₽</p>
+					</div>
+				</div>
+				<div class="swiper-button-prev services__slider-prev"></div>
+				<div class="swiper-button-next services__slider-next"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container__page">
+
+
+			<div class="info__about" style="background-image: url(images/bg1.png);">
+				<div class="info__about-box ">
+					<h2 class="title">О нас</h2>
+					<p class="info__text">Наш салон приветствует своих гостей!
+						Мы занимаемся всеми видами современных beauty-услуг а также косметологией.
+					</p>
+					<a class="info__about-link" href="#">Узнать больше</a>
+				</div>
+			</div>
+			<div class="info__about" style="background-image: url(images/bg2.png);">
+				<div class="info__about-box ">
+					<h2 class="title">История салона</h2>
+					<p class="info__text">Мы существуем на рынке уже 10 лет. За эти годы мы стали настоящими
+						профессионалами своего дела! Нам доверились уже тысячи довольных посетителей. И это только
+						начало!
+					</p>
+				</div>
+			</div>
+			<div class="info__about" style="background-image: url(images/bg3.png);">
+				<div class="info__about-box ">
+					<h2 class="title">Мы работаем
+						с лучшими</h2>
+					<p class="info__text">В нашем арсенале имеется прекрасная редкая продукция из Испании.
+						Проверенная временем, она порадует каждого посетителя нашего салона!
+					</p>
+				</div>
+			</div>
+			<div class="info__about" style="background-image: url(images/bg4.png);">
+				<div class="info__about-box ">
+					<h2 class="title">Мы работаем
+						с лучшими</h2>
+					<p class="info__text">Наши двери открыты для посетителей 7 дней в неделю, круглые сутки! В
+						ночное время запись обязательна!
+					</p>
+					<p class="info__about-time">10:00 – 20:00</p>
+					<p class="info__about-time info__about-time--hek">20:00 – 10:00*</p>
+					<button class="info__about-btn">Записаться</button>
+					<button class="info__about-btn info__about-btn--two">Записаться</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="istagram">
+		<div class="container__page">
+			<div class="title__wrapper">
+				<h2 class="tile__inst">Следите за нами в <a href="#">Instagram</a></h2>
+				<a href="#">
+					<img class="title__icon" src="images/inst_icon.svg" alt="">
+				</a>
+			</div>
+			<div class="swiper-container services__slider-container">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<div class="swiper-slide services__slider-item instagram__slider-item">
+						<a class="instagram__images" href="#">
+							<img src="images/inst_images1.jpg" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide services__slider-item instagram__slider-item">
+						<a class="instagram__images" href="#">
+							<img src="images/inst_images2.jpg" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide services__slider-item instagram__slider-item">
+						<a class="instagram__images" href="#">
+							<img src="images/inst_images3.jpg" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide services__slider-item instagram__slider-item">
+						<a class="instagram__images" href="#">
+							<img src="images/inst_images4.jpg" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide services__slider-item instagram__slider-item">
+						<a class="instagram__images" href="#">
+							<img src="images/inst_image5.jpg" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide services__slider-item instagram__slider-item">
+						<a class="instagram__images" href="#">
+							<img src="images/inst_images6.jpg" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide services__slider-item instagram__slider-item">
+						<a class="instagram__images" href="#">
+							<img src="images/inst_images1.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="swiper-button-prev services__slider-prev istagram__arrow-prev"></div>
+				<div class="swiper-button-next services__slider-next istagram__arrow-next"></div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="footer">
+		<div class="footer__top container">
+			<img class="footer__logo" src="images/logo_footer.png" alt="">
+			<ul class="footer__ul">
+				<li>
+					<a class="footer__link" href="#">услуги</a>
+				</li>
+				<li>
+					<a class="footer__link" href="#">цены</a>
+				</li>
+				<li>
+					<a class="footer__link" href="#">акции</a>
+				</li>
+			</ul>
+			<ul class="footer__ul footer__ul-2">
+				<li>
+					<a class="footer__link footer__link-2" href="#">история компании</a>
+				</li>
+				<li>
+					<a class="footer__link footer__link-2" href="#">Интерьер салона</a>
+				</li>
+				<li>
+					<a class="footer__link footer__link-2" href="#">Вакансии</a>
+				</li>
+				<li>
+					<a class="footer__link footer__link-2" href="#">Новости</a>
+				</li>
+				<li>
+					<a class="footer__link footer__link-2" href="#">Отзывы</a>
+				</li>
+			</ul>
+			<ul class="footer__ul footer__ul-3">
+				<li>
+					<a class="footer__link footer__link-3" href="#">
+						<img src="images/inst_footer.svg" alt="">
+					</a>
+				</li>
+				<li>
+					<a class="footer__link footer__link-3" href="#">
+						<img src="images/f_footer.svg" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="line"></div>
+		<div class="footer__down container">
+			<p class="footer__copi">© Оттенки 2020. Все права защищены.</p>
+			<a class="footer__copi-link" href="#">Пользовательское соглашение и политика конфиденциальности</a>
+			<p class="footer__text">Сайт разработан</p>
+			<a class="footer__enteryes" href="#">
+				<img src="images/ENTERYES.svg" alt="">
+			</a>
+
+		</div>
+	</footer>
+
+
+
+
+
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
